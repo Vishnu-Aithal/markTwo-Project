@@ -6,38 +6,43 @@ var currentScore = 0
 var highScores =[
   {
     name: "Vishnu",
-    score: 4
+    score: 5
   },
   {
   name: "Bonda",
-  score: 3
+  score: 4
   },
   {
     name: "Bajji",
-    score: 2
+    score: 3
   }
 ] 
 
 var questionsList = [
   questionOne = {
-    question: "Working on Abdominal muscles reduces belly fat. ",
+    question: "Will working on Abdominal muscles reduces belly fat? ",
     answer: false,
     explanation: "Fat is reduced as a whole(think onion peel). The areas where fat gets burned first are determined by genetics, working the underlying muscle might stretch the overlying skin due to hypertrophy, but will not burn fat. You can burn fat only if your calorie intake is lower than calorie expenditure. "
   },
   questionTwo = {
-    question: "Women should not lift weights. ",
+    question: "Does lifting weights make women look masculine? ",
     answer: false,
     explanation: "Lifting weights by women does not make them masculine as they lack the necassary hormones. Infact moderate weight exercises can help burn greater calories than cardio. "
   },
   questionThree = {
-    question: "All protiens are equal. ",
+    question: "Are all protiens made equal? ",
     answer: false,
     explanation: "Protiens from different sources have different amino acid profiles and different absorption rates. "
   },
     questionFour = {
-    question: "Exercising makes you tired. ",
+    question: "Does regular exercising make you feel tired? ",
     answer: false,
     explanation: "Very intense exercise may make you tired, but reguar moderate exercises will leave you energetic and also stabilises mood. If you still feel tired most probably you are dehydrated with depleted electrolytes or you are on a low carb diet. "
+  },
+    questionFive = {
+    question: "Will your muscles turn into fat if you stop exercising? ",
+    answer: false,
+    explanation: "Muscle and Fat are completely different tissues with different functions. once you stop exercising, you stop burning additional calories, which get stored as fat. Your muscles undergo atrophy because of reduced physical activity. Both the processes are independent of each other."
   }
 
 ]
